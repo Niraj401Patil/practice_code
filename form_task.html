@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        
+
+        
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            height: 100vh;
+            width:100vw;
+            background-image: linear-gradient(90deg, red, blue);
+            margin: auto;
+            align-items: center;
+            
+        }
+
+        .flex-items{
+            display: flex;
+            height:50vh ;
+            width: 70vw;
+            background-color: red;
+            align-items: center;
+            padding-left: 20px;
+            
+        }
+        
+
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container">
+       <div class="flex-items">
+        <form >
+            <label for="description">Description</label>
+            <input type="text" name="diescription">
+            
+            <label for="from">From :</label>
+            <input type="date" name="from">
+
+            <label for="to">To :</label>
+            <input type="date" name="to">
+            <label for="counter">Counter : </label>
+            <input type="number" name="counter" min="0" max="10">
+            <input type="submit" value="Submit"/>
+        </form>
+        </div>
+    </div>
+    
+</body>
+</html>
